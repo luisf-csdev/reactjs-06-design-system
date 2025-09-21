@@ -2,14 +2,7 @@
   "name": "@ignite-ui/tokens",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/_variables.css",
   "keywords": [],
   "author": "",
-  "license": "MIT",
-  "devDependencies": {
-    "@ignite-ui/ts-config": "workspace:*",
-    "@ignite-ui/eslint-config": "workspace:*",
-    "tsup": "^8.5.0",
-    "typescript": "^5.9.2"
-  }
+  "license": "MIT"
 }

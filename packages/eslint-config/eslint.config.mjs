@@ -2,8 +2,11 @@ import js from '@eslint/js'
 import { defineConfig } from 'eslint/config'
 import prettierConfig from 'eslint-config-prettier'
 import prettier from 'eslint-plugin-prettier'
+import reactHooks from 'eslint-plugin-react-hooks'
+import reactRefresh from 'eslint-plugin-react-refresh'
 import simpleImportSort from 'eslint-plugin-simple-import-sort'
 import sonarjs from 'eslint-plugin-sonarjs'
+import unicorn from 'eslint-plugin-unicorn'
 import globals from 'globals'
 import tseslint from 'typescript-eslint'
 
@@ -21,8 +24,11 @@ export default defineConfig(
       globals: globals.browser,
     },
     plugins: {
+      'react-hooks': reactHooks,
+      'react-refresh': reactRefresh,
       'simple-import-sort': simpleImportSort,
       prettier,
+      unicorn,
     },
     rules: {
       '@typescript-eslint/no-unused-vars': [
@@ -45,6 +51,13 @@ export default defineConfig(
           tabWidth: 2,
           trailingComma: 'all',
         },
+      ],
+      'unicorn/filename-case': ['error', { case: 'kebabCase' }],
+      ...reactHooks.configs.recommended.rules,
+      ...reactRefresh.configs.recommended.rules,
+      'react-refresh/only-export-components': [
+        'warn',
+        { allowConstantExport: true },
       ],
     },
   },

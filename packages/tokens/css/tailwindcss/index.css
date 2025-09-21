@@ -1,0 +1,79 @@
+@import "../_variables.css";
+
+@theme inline {
+  /* Color */
+  --color-white: var(--white);
+  --color-black: var(--black);
+  --color-gray-100: var(--gray-100);
+  --color-gray-200: var(--gray-200);
+  --color-gray-400: var(--gray-400);
+  --color-gray-500: var(--gray-500);
+  --color-gray-600: var(--gray-600);
+  --color-gray-700: var(--gray-700);
+  --color-gray-800: var(--gray-800);
+  --color-gray-900: var(--gray-900);
+  --color-ignite-300: var(--ignite-300);
+  --color-ignite-500: var(--ignite-500);
+  --color-ignite-700: var(--ignite-700);
+  --color-ignite-900: var(--ignite-900);
+
+  /* Font Size */
+  --text-2xs: var(--font-size-2xs);
+  --text-xs: var(--font-size-xs);
+  --text-sm: var(--font-size-sm);
+  --text-md: var(--font-size-md);
+  --text-lg: var(--font-size-lg);
+  --text-xl: var(--font-size-xl);
+  --text-2xl: var(--font-size-2xl);
+  --text-4xl: var(--font-size-4xl);
+  --text-5xl: var(--font-size-5xl);
+  --text-6xl: var(--font-size-6xl);
+  --text-7xl: var(--font-size-7xl);
+  --text-8xl: var(--font-size-8xl);
+  --text-9xl: var(--font-size-9xl);
+
+  /* Font Weight */
+  --font-weight-regular: var(--font-weight-regular);
+  --font-weight-medium: var(--font-weight-medium);
+  --font-weight-bold: var(--font-weight-bold);
+
+  /* Font Weight */
+  --font-weight-regular: var(--font-weight-regular);
+  --font-weight-medium: var(--font-weight-medium);
+  --font-weight-bold: var(--font-weight-bold);
+
+  /* Font Family */
+  --font-default: var(--font-family-default);
+  --font-code: var(--font-family-code);
+
+  /* Line Height */
+  --spacing-leading-shorter: var(--line-height-shorter);
+  --spacing-leading-short: var(--line-height-short);
+  --spacing-leading-base: var(--line-height-base);
+  --spacing-leading-tall: var(--line-height-tall);
+  
+  /* Border Radius */
+  --radius-px: var(--radii-px); 
+  --radius-xs: var(--radii-xs);
+  --radius-sm: var(--radii-sm);
+  --radius-md: var(--radii-md);
+  --radius-lg: var(--radii-lg);
+  --radius-full: var(--radii-full);
+
+  /* Space */
+  --spacing-1: var(--sizes-1);
+  --spacing-2: var(--sizes-2);
+  --spacing-3: var(--sizes-3);
+  --spacing-4: var(--sizes-4);
+  --spacing-5: var(--sizes-5);
+  --spacing-6: var(--sizes-6);
+  --spacing-7: var(--sizes-7);
+  --spacing-8: var(--sizes-8);
+  --spacing-10: var(--sizes-10);
+  --spacing-12: var(--sizes-12);
+  --spacing-16: var(--sizes-16);
+  --spacing-20: var(--sizes-20);
+  --spacing-40: var(--sizes-40);
+  --spacing-64: var(--sizes-64);
+  --spacing-80: var(--sizes-80);
+}
