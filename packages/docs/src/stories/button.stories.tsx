@@ -2,10 +2,10 @@ import { Button, type ButtonProps } from '@ignite-ui/react'
 import type { Meta, StoryObj } from '@storybook/react-vite'
 
 export default {
-  title: 'Button',
+  title: 'Form/Button',
   component: Button,
   args: {
-    children: 'Enviar',
+    children: 'Send',
   },
 } as Meta
 

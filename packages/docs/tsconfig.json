@@ -1,7 +1,7 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "extends": "@ignite-ui/ts-config/react.json",
+  "compilerOptions": {
+    "moduleResolution": "bundler"
+  },
+  "include": ["src"]
 }

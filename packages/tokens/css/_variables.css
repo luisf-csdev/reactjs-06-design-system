@@ -1,5 +1,5 @@
 :root {
-  /* Color */
+  /* Colors */
   --white: #FFF;
   --black: #000;
   --gray-100: #E1E1E6;
@@ -15,7 +15,7 @@
   --ignite-700: #015F43;
   --ignite-900: #00291D;
 
-  /* Font Size */
+  /* Font Sizes */
   --font-size-2xs: 0.625rem;
   --font-size-xs: 0.75rem;
   --font-size-sm: 0.875rem;
@@ -30,22 +30,22 @@
   --font-size-8xl: 4.5rem;
   --font-size-9xl: 6rem;
 
-  /* Font Weight */
+  /* Font Weights */
   --font-weight-regular: 400; 
   --font-weight-medium: 500;
   --font-weight-bold: 700;
 
-  /* Font Family */
+  /* Font Families */
   --font-family-default: "Roboto", sans-serif;
   --font-family-code: monospace;
 
-  /* Line Height */
+  /* Line Heights */
   --line-height-shorter: 125%;
   --line-height-short: 140%;
   --line-height-base: 160%;
   --line-height-tall: 180%;
   
-  /* Border Radius */
+  /* Radii */
   --radii-px: 1px; 
   --radii-xs: 4px;
   --radii-sm: 6px;
@@ -53,7 +53,7 @@
   --radii-lg: 16px;
   --radii-full: 99999px;
 
-  /* Space */
+  /* Spaces */
   --sizes-1: 0.25rem;
   --sizes-2: 0.5rem;
   --sizes-3: 0.75rem;
