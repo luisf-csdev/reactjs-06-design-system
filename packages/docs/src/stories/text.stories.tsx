@@ -1,0 +1,22 @@
+import { Text, type TextProps } from '@ignite-ui/react/text'
+import type { Meta, StoryObj } from '@storybook/react-vite'
+
+export default {
+  title: 'Typography/Text',
+  component: Text,
+  args: {
+    children:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem incidunt eaque quibusdam adipisci voluptatum blanditiis fugit, optio tempora inventore sit quaerat neque modi voluptas, quos odit iure amet quisquam est.',
+  },
+} as Meta<TextProps>
+
+export const Primary: StoryObj<TextProps> = {
+  args: {},
+}
+
+export const CustomTag: StoryObj<TextProps> = {
+  args: {
+    children: <strong>Strong text</strong>,
+    asChild: true,
+  },
+}

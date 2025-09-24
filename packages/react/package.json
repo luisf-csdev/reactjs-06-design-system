@@ -2,12 +2,17 @@
   "name": "@ignite-ui/react",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "exports": {
+    "./*": {
+      "types": "./dist/components/ui/*.d.ts",
+      "import": "./dist/components/ui/*.mjs",
+      "require": "./dist/components/ui/*.js"
+    },
+    "./styles": "./dist/styles/components.css"
+  },
   "scripts": {
-    "build": "tsup src/index.tsx --format esm,cjs --dts --external react --inject-style",
-    "dev": "tsup src/index.tsx --format esm,cjs --dts --watch --external react --inject-style",
+    "build": "tsup src/components/ui/*.tsx src/styles/components.css --format esm,cjs --dts --external react --clean",
+    "dev": "tsup src/components/ui/*.tsx src/styles/components.css --format esm,cjs --dts --watch --external react --clean",
     "lint": "eslint ./src --fix"
   },
   "keywords": [],
@@ -26,9 +31,12 @@
     "typescript": "^5.9.2"
   },
   "dependencies": {
+    "@radix-ui/react-avatar": "^1.1.10",
+    "@radix-ui/react-slot": "^1.2.3",
     "@tailwindcss/postcss": "^4.1.13",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "phosphor-react": "^1.4.1",
     "postcss": "^8.5.6",
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.13"

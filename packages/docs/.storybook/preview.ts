@@ -1,3 +1,5 @@
+import '@ignite-ui/react/styles'
+
 import type { Preview } from '@storybook/react-vite'
 import { themes } from 'storybook/theming'
 
@@ -19,6 +21,7 @@ const preview: Preview = {
       theme: themes.dark,
     },
   },
+  tags: ['autodocs'],
 }
 
 export default preview
