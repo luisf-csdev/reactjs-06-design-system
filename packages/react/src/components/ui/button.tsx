@@ -5,7 +5,7 @@ import { cn } from '@/lib/cn'
 
 const buttonVariants = cva(
   cn(
-    'font-default flex min-w-[120px] cursor-pointer items-center justify-center gap-2 rounded-sm py-4 text-center text-sm font-medium',
+    'flex min-w-[120px] cursor-pointer items-center justify-center gap-2 rounded-sm py-4 text-center font-default text-sm font-medium',
     'disabled:cursor-not-allowed',
     '[&>svg]:h-4 [&>svg]:w-4',
   ),
@@ -18,7 +18,7 @@ const buttonVariants = cva(
           'disabled:bg-gray-200',
         ),
         secondary: cn(
-          'text-ignite-300 border-ignite-500 border-2',
+          'border-2 border-ignite-500 text-ignite-300',
           'not-disabled:hover:bg-ignite-500 not-disabled:hover:text-white',
           'disabled:border-gray-200 disabled:text-gray-200',
         ),

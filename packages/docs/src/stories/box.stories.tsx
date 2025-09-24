@@ -1,14 +1,20 @@
 import { Box, BoxProps } from '@ignite-ui/react/box'
+import { Text } from '@ignite-ui/react/text'
 import type { Meta, StoryObj } from '@storybook/react-vite'
 
 export default {
   title: 'Surfaces/Box',
   component: Box,
   args: {
-    children: <span>Testing Box Element</span>,
+    children: <Text>Testing Box Element</Text>,
+  },
+  argTypes: {
+    children: {
+      control: {
+        disable: true,
+      },
+    },
   },
 } as Meta<BoxProps>
 
-export const Primary: StoryObj<BoxProps> = {
-  args: {},
-}
+export const Primary: StoryObj<BoxProps> = {}

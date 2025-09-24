@@ -1,4 +1,4 @@
-import cssVariables from '@ignite-ui/tokens/css/_variables.css?raw'
+import cssVariables from '@ignite-ui/tokens/css/_variables?raw'
 
 import { parseDesignTokens } from './utils/parse-design-tokens'
 

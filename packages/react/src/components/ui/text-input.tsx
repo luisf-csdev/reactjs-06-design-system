@@ -16,12 +16,12 @@ export function TextInput({ prefix, ...props }: TextInputProps) {
       )}
     >
       {!!prefix && (
-        <span className="font-default font-regular text-sm text-gray-400">
+        <span className="font-default text-sm font-regular text-gray-400">
           {prefix}
         </span>
       )}
       <input
-        className="font-default font-regular w-full border-0 bg-transparent text-sm text-white placeholder:text-gray-400 focus:outline-0 disabled:cursor-not-allowed"
+        className="w-full border-0 bg-transparent font-default text-sm font-regular text-white placeholder:text-gray-400 focus:outline-0 disabled:cursor-not-allowed"
         {...props}
       />
     </div>

@@ -10,9 +10,7 @@ export default {
   },
 } as Meta<AvatarProps>
 
-export const Primary: StoryObj<AvatarProps> = {
-  args: {},
-}
+export const Primary: StoryObj<AvatarProps> = {}
 
 export const WithFallback: StoryObj<AvatarProps> = {
   args: {

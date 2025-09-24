@@ -1,3 +1,4 @@
+/* eslint-disable sonarjs/todo-tag */
 import '../src/styles/globals.css'
 
 import type { Preview } from '@storybook/react-vite'

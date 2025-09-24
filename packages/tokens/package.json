@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "exports": {
     "./css": "./css/index.css",
+    "./css/_variables": "./css/_variables.css",
     "./css/tailwindcss": "./css/tailwindcss/index.css"
   },
   "description": "",
