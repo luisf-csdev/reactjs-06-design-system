@@ -1,7 +1,7 @@
 import { Slot } from '@radix-ui/react-slot'
 import { cva, type VariantProps } from 'class-variance-authority'
 
-import type { BaseProps } from '@/types/base-props'
+import type { BaseProps } from '@/components/types/base-props'
 
 const headingVariants = cva(
   'font-default leading-leading-shorter text-gray-100',

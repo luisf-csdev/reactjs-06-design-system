@@ -1,6 +1,10 @@
 {
   "name": "@ignite-ui/tokens",
   "version": "1.0.0",
+  "exports": {
+    "./css": "./css/index.css",
+    "./css/tailwindcss": "./css/tailwindcss/index.css"
+  },
   "description": "",
   "keywords": [],
   "author": "",

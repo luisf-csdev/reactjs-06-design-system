@@ -1,7 +1,7 @@
 import { Slot } from '@radix-ui/react-slot'
 
 import { cn } from '@/lib/cn'
-import type { BaseProps } from '@/types/base-props'
+import type { BaseProps } from '@/components/types/base-props'
 
 export type BoxProps = BaseProps<'div'>
 
