@@ -7,12 +7,11 @@
       "types": "./dist/components/ui/*.d.ts",
       "import": "./dist/components/ui/*.mjs",
       "require": "./dist/components/ui/*.js"
-    },
-    "./styles": "./dist/styles/components.css"
+    }
   },
   "scripts": {
-    "build": "tsup src/components/ui/*.tsx src/styles/components.css --format esm,cjs --dts --external react --clean",
-    "dev": "tsup src/components/ui/*.tsx src/styles/components.css --format esm,cjs --dts --watch --external react --clean",
+    "build": "tsup src/components/ui/*.tsx --format esm,cjs --dts --external react --outDir dist/components/ui --clean",
+    "dev": "tsup src/components/ui/*.tsx --format esm,cjs --dts --external react --outDir dist/components/ui --clean --watch",
     "lint": "eslint ./src --fix"
   },
   "keywords": [],

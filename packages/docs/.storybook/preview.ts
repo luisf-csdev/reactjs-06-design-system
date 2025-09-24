@@ -1,4 +1,4 @@
-import '@ignite-ui/react/styles'
+import '../src/styles/globals.css'
 
 import type { Preview } from '@storybook/react-vite'
 import { themes } from 'storybook/theming'
