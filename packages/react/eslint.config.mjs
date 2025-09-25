@@ -1,4 +1,4 @@
-import igniteConfig from '@ignite-ui/eslint-config'
+import igniteConfig from '@luisf-ignite-ui/eslint-config'
 import { defineConfig } from 'eslint/config'
 
 export default defineConfig({

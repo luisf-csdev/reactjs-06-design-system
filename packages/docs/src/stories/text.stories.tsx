@@ -1,4 +1,4 @@
-import { Text, type TextProps } from '@ignite-ui/react/text'
+import { Text, type TextProps } from '@luisf-ignite-ui/react/text'
 import type { Meta, StoryObj } from '@storybook/react-vite'
 
 export default {

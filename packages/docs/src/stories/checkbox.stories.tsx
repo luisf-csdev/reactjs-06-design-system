@@ -1,6 +1,6 @@
-import { Box } from '@ignite-ui/react/box'
-import { Checkbox, type CheckboxProps } from '@ignite-ui/react/checkbox'
-import { Text } from '@ignite-ui/react/text'
+import { Box } from '@luisf-ignite-ui/react/box'
+import { Checkbox, type CheckboxProps } from '@luisf-ignite-ui/react/checkbox'
+import { Text } from '@luisf-ignite-ui/react/text'
 import type { Meta, StoryObj } from '@storybook/react-vite'
 
 export default {

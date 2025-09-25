@@ -1,5 +1,5 @@
-import { Box, BoxProps } from '@ignite-ui/react/box'
-import { Text } from '@ignite-ui/react/text'
+import { Box, BoxProps } from '@luisf-ignite-ui/react/box'
+import { Text } from '@luisf-ignite-ui/react/text'
 import type { Meta, StoryObj } from '@storybook/react-vite'
 
 export default {

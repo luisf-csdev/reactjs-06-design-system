@@ -1,5 +1,5 @@
 {
-  "extends": "@ignite-ui/ts-config/react.json",
+  "extends": "@luisf-ignite-ui/ts-config/react.json",
   "compilerOptions": {
     "moduleResolution": "bundler"
   },

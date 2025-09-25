@@ -12,5 +12,11 @@ const config: StorybookConfig = {
     name: '@storybook/react-vite',
     options: {},
   },
+  // viteFinal: (config, { configType }) => {
+  //   if (configType === 'PRODUCTION') {
+  //     config.base = '/reactjs-06-design-system'
+  //   }
+  //   return config
+  // },
 }
 export default config

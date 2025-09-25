@@ -1,20 +1,19 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@luisf-ignite-ui/docs",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "storybook build",
-    "deploy-storybook": "storybook-to-ghpages"
+    "build": "storybook build"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@ignite-ui/eslint-config": "workspace:*",
-    "@ignite-ui/react": "workspace:*",
-    "@ignite-ui/tokens": "workspace:*",
-    "@ignite-ui/ts-config": "workspace:*",
+    "@luisf-ignite-ui/eslint-config": "workspace:*",
+    "@luisf-ignite-ui/react": "workspace:*",
+    "@luisf-ignite-ui/tokens": "workspace:*",
+    "@luisf-ignite-ui/ts-config": "workspace:*",
     "@tailwindcss/postcss": "^4.1.13",
     "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",
@@ -30,7 +29,6 @@
     "@storybook/addon-docs": "^9.1.8",
     "@storybook/addon-vitest": "^9.1.8",
     "@storybook/react-vite": "^9.1.8",
-    "@storybook/storybook-deployer": "^2.8.16",
     "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",
     "@vitejs/plugin-react": "^5.0.3",
@@ -38,7 +36,7 @@
     "@vitest/coverage-v8": "^3.2.4",
     "eslint": "^9.36.0",
     "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.21",
+    "eslint-plugin-react-refresh": "^0.4.22",
     "eslint-plugin-storybook": "^9.1.8",
     "globals": "^16.4.0",
     "playwright": "^1.55.1",

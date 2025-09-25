@@ -1,6 +1,6 @@
-import { Box } from '@ignite-ui/react/box'
-import { Text } from '@ignite-ui/react/text'
-import { TextArea, type TextAreaProps } from '@ignite-ui/react/text-area'
+import { Box } from '@luisf-ignite-ui/react/box'
+import { Text } from '@luisf-ignite-ui/react/text'
+import { TextArea, type TextAreaProps } from '@luisf-ignite-ui/react/text-area'
 import type { Meta, StoryObj } from '@storybook/react-vite'
 
 export default {
