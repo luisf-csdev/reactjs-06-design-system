@@ -11,24 +11,21 @@ importers:
       '@changesets/cli':
         specifier: ^2.29.7
         version: 2.29.7
+      prettier-plugin-tailwindcss:
+        specifier: ^0.6.14
+        version: 0.6.14(prettier@3.6.2)
       turbo:
         specifier: ^2.5.8
         version: 2.5.8
 
   packages/docs:
     dependencies:
-      '@luisf-ignite-ui/eslint-config':
-        specifier: workspace:*
-        version: link:../eslint-config
       '@luisf-ignite-ui/react':
         specifier: workspace:*
         version: link:../react
       '@luisf-ignite-ui/tokens':
         specifier: workspace:*
         version: link:../tokens
-      '@luisf-ignite-ui/ts-config':
-        specifier: workspace:*
-        version: link:../ts-config
       '@tailwindcss/postcss':
         specifier: ^4.1.13
         version: 4.1.13
@@ -57,6 +54,12 @@ importers:
       '@eslint/js':
         specifier: ^9.36.0
         version: 9.36.0
+      '@luisf-ignite-ui/eslint-config':
+        specifier: workspace:*
+        version: link:../eslint-config
+      '@luisf-ignite-ui/ts-config':
+        specifier: workspace:*
+        version: link:../ts-config
       '@storybook/addon-a11y':
         specifier: ^9.1.8
         version: 9.1.8(storybook@9.1.8(@testing-library/dom@10.4.1)(prettier@3.6.2)(vite@7.1.7(jiti@2.6.0)(lightningcss@1.30.1)))

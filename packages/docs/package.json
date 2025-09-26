@@ -1,6 +1,7 @@
 {
   "name": "@luisf-ignite-ui/docs",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "storybook dev -p 6006",
@@ -10,10 +11,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@luisf-ignite-ui/eslint-config": "workspace:*",
     "@luisf-ignite-ui/react": "workspace:*",
     "@luisf-ignite-ui/tokens": "workspace:*",
-    "@luisf-ignite-ui/ts-config": "workspace:*",
     "@tailwindcss/postcss": "^4.1.13",
     "phosphor-react": "^1.4.1",
     "polished": "^4.3.1",
@@ -23,6 +22,8 @@
     "tailwindcss": "^4.1.13"
   },
   "devDependencies": {
+    "@luisf-ignite-ui/eslint-config": "workspace:*",
+    "@luisf-ignite-ui/ts-config": "workspace:*",
     "@chromatic-com/storybook": "^4.1.1",
     "@eslint/js": "^9.36.0",
     "@storybook/addon-a11y": "^9.1.8",

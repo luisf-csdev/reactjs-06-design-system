@@ -2,6 +2,7 @@
   "name": "@luisf-ignite-ui/eslint-config",
   "license": "MIT",
   "private": true,
+  "version": "1.0.0",
   "main": "./eslint.config.mjs",
   "types": "./eslint.config.d.ts",
   "devDependencies": {

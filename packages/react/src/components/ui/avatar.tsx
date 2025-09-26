@@ -5,7 +5,7 @@ export type AvatarProps = AvatarPrimitive.AvatarImageProps
 
 export function Avatar(props: AvatarProps) {
   return (
-    <AvatarPrimitive.Root className="inline-block h-12 w-12 overflow-hidden rounded-full">
+    <AvatarPrimitive.Root className="inline-block h-16 w-16 overflow-hidden rounded-full">
       <AvatarPrimitive.Image
         {...props}
         className="h-full w-full rounded-[inherit] object-cover"

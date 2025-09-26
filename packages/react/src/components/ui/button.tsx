@@ -7,6 +7,7 @@ const buttonVariants = cva(
   cn(
     'flex min-w-[120px] cursor-pointer items-center justify-center gap-2 rounded-sm py-4 text-center font-default text-sm font-medium',
     'disabled:cursor-not-allowed',
+    'focus:shadow-[0_0_0_2px_var(--gray-100)]',
     '[&>svg]:h-4 [&>svg]:w-4',
   ),
   {

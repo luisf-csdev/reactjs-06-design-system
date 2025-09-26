@@ -11,7 +11,7 @@ export function Checkbox({ className, ...props }: CheckboxProps) {
       className={cn(
         'flex h-6 w-6 cursor-pointer items-center justify-center overflow-hidden rounded-xs border-2 border-transparent bg-gray-900 leading-0',
         'focus:border-ignite-300',
-        'data-[state=checked]:bg-ignite-300',
+        'data-[state=checked]:border-ignite-300 data-[state=checked]:bg-ignite-300',
         className,
       )}
       {...props}

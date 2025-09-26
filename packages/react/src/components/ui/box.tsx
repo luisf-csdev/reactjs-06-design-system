@@ -11,7 +11,7 @@ export function Box({ className, asChild, ...props }: BoxProps) {
     <Comp
       data-slot="box"
       className={cn(
-        'rounded-md border border-gray-600 bg-gray-800 p-4',
+        'rounded-md border border-gray-600 bg-gray-800 p-6',
         className,
       )}
       {...props}
